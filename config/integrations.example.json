@@ -1,0 +1,22 @@
+{
+  "github": {
+    "enabled": false,
+    "mode": "read-only"
+  },
+  "linear": {
+    "enabled": false,
+    "mode": "read-only"
+  },
+  "vercel": {
+    "enabled": false,
+    "mode": "read-only"
+  },
+  "sentry": {
+    "enabled": false,
+    "mode": "read-only"
+  },
+  "policy": {
+    "allow_mutations": false,
+    "require_explicit_authorization": true
+  }
+}

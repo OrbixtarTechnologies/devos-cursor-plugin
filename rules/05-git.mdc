@@ -1,0 +1,11 @@
+---
+description: Git hygiene and change isolation rules.
+alwaysApply: true
+---
+# Git Hygiene
+
+- Inspect status before broad edits. Preserve unrelated user work.
+- Do not reset, checkout, clean, rebase, force-push, or rewrite history unless explicitly requested.
+- Keep changes focused; avoid drive-by formatting of unrelated files.
+- Review the final diff for unintended files, generated artifacts, debug code, and secrets.
+- Commit messages should describe intent and remain consistent with repository conventions.

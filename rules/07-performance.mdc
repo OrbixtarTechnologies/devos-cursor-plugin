@@ -1,0 +1,11 @@
+---
+description: Performance engineering guardrails.
+alwaysApply: true
+---
+# Performance
+
+- Measure before optimizing when a bottleneck is not obvious.
+- Prefer algorithmic and I/O improvements over micro-optimizations.
+- Watch database query counts, network round trips, serialization, memory growth, bundle size, and unnecessary rendering.
+- Preserve correctness, observability, and maintainability while optimizing.
+- For performance-sensitive changes, state the expected bottleneck and how it was verified.

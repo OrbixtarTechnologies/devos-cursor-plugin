@@ -1,0 +1,12 @@
+---
+description: Secure-by-default development and review guidance.
+alwaysApply: true
+---
+# Security
+
+- Treat all external input as untrusted. Validate at boundaries and encode output appropriately.
+- Avoid shell interpolation, unsafe deserialization, path traversal, SSRF, injection, insecure redirects, and authorization bypasses.
+- Keep authentication and authorization checks close to the protected operation.
+- Never expose secrets in logs, errors, client bundles, URLs, or committed files.
+- For dependency or infrastructure changes, check security implications and least privilege.
+- For security findings, distinguish confirmed vulnerabilities from hypotheses and state the evidence.

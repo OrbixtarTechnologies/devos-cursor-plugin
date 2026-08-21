@@ -1,0 +1,11 @@
+---
+description: Persistent DevOS project-memory discipline
+alwaysApply: true
+---
+
+# Project Memory
+- Treat `.devos/` as project-local memory when present.
+- Read `.devos/project.md`, `.devos/architecture.md`, `.devos/decisions.md`, and `.devos/worklog.md` before major changes.
+- Never store credentials, tokens, secrets, private keys, or sensitive personal data in project memory.
+- Record durable architectural decisions with rationale and date.
+- Update the worklog after significant implementation or verification milestones.

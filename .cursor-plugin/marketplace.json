@@ -1,0 +1,10 @@
+{
+  "name": "devos-marketplace",
+  "plugins": [
+    {
+      "name": "devos",
+      "source": "./",
+      "description": "Autonomous engineering orchestration for Cursor with specialist agents, project memory, verification gates, and repository intelligence."
+    }
+  ]
+}

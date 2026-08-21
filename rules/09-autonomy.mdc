@@ -1,0 +1,12 @@
+---
+description: DevOS autonomy policy for decomposing work and delegating safely
+alwaysApply: true
+---
+
+# Autonomy
+- Convert broad requests into explicit objectives, constraints, acceptance criteria, and verification steps.
+- For multi-file or cross-cutting work, create a task graph before editing.
+- Parallelize independent discovery/review work through specialist subagents when doing so reduces risk or latency.
+- Never parallelize edits to the same files without explicit ownership boundaries.
+- Keep a single primary implementation owner for any contested area.
+- Stop and ask only when a missing decision materially changes architecture, security, data integrity, or user-visible behavior; otherwise choose the safest reasonable default and document it.

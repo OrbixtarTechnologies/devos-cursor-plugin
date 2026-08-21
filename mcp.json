@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "devos-project-intel": {
+      "command": "python",
+      "args": ["${CURSOR_PLUGIN_ROOT}/mcp/project_intel.py"],
+      "env": {
+        "DEVOS_PROJECT_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+---
+description: Evidence-based completion gates
+alwaysApply: true
+---
+
+# Verification Gates
+A task is not complete until applicable gates are satisfied:
+1. Build/type/static checks.
+2. Focused tests.
+3. Regression checks for changed behavior.
+4. Security/privacy review for relevant changes.
+5. Diff review and repository cleanliness check.
+
+Report exact commands and outcomes. Never infer success from intent or prior runs.

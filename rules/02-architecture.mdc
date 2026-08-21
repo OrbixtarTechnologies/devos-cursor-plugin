@@ -1,0 +1,13 @@
+---
+description: Architecture and maintainability rules.
+alwaysApply: true
+---
+# Architecture
+
+- Respect existing boundaries: UI, domain, data, infrastructure, and integration layers should not silently collapse into one another.
+- Prefer composition and dependency injection over hidden global state.
+- Keep business rules deterministic and testable where practical.
+- Add an abstraction only when it removes real coupling or repeated complexity; avoid speculative frameworks.
+- For APIs and schemas, preserve backward compatibility unless a breaking change is explicitly intended.
+- Make failure modes explicit at integration boundaries.
+- When changing architecture, document the why, migration path, and rollback story.

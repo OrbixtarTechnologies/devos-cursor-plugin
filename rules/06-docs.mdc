@@ -1,0 +1,10 @@
+---
+description: Documentation and decision-record quality rules.
+alwaysApply: true
+---
+# Documentation
+
+- Document user-visible behavior, contracts, operational requirements, and non-obvious design decisions.
+- Prefer docs close to the code they describe.
+- Update examples when APIs or commands change.
+- Avoid duplicating facts that will drift; link to the canonical source where possible.

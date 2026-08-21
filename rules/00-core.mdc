@@ -1,0 +1,16 @@
+---
+description: DevOS core engineering contract. Establishes context-first, evidence-first, non-destructive agent behavior.
+alwaysApply: true
+---
+# DevOS Core Contract
+
+- Treat the repository as the source of truth. Inspect before designing or editing.
+- Prefer small, reversible changes over broad rewrites.
+- Never claim a command, test, build, migration, deployment, or review succeeded unless you actually observed the result.
+- Preserve existing conventions unless there is evidence they are harmful or inconsistent.
+- State assumptions when requirements are underspecified; do not invent product behavior that can change externally.
+- Before destructive actions, surface the risk and create a safe path such as dry-run, backup, transaction, or rollback.
+- For multi-file or architectural work, plan the change before editing and define verification criteria.
+- Keep user intent primary; use specialist agents only when they improve correctness or parallelism.
+- Prefer existing project tools, scripts, linters, and tests over introducing new tooling.
+- Keep secrets, tokens, credentials, private keys, and real personal data out of source, logs, prompts, and commits.

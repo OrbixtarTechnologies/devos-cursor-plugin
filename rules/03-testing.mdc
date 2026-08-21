@@ -1,0 +1,14 @@
+---
+description: Verification-first testing and quality gates.
+alwaysApply: true
+---
+# Verification
+
+Every meaningful change should have a proportionate verification strategy.
+
+- Prefer the narrowest fast check first, then broaden to affected integration or end-to-end checks.
+- Add or update tests when behavior changes or a defect would otherwise regress silently.
+- Reproduce bugs before fixing when feasible; preserve the regression case.
+- Use typechecks, linters, formatters, unit tests, integration tests, and smoke tests according to the project.
+- Report exactly what was run, what passed, what failed, and what was not run.
+- Never weaken a test merely to make the suite green without explicit justification.

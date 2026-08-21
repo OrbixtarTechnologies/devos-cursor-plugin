@@ -1,0 +1,9 @@
+{
+  "name": "devos",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "python \"${CURSOR_PLUGIN_ROOT}/hooks/guard_prompt.py\"",
+        "timeout": 5
+      }
+    ]
+  }
+}

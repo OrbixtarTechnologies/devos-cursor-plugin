@@ -1,0 +1,16 @@
+---
+description: Repository discovery and context rules for reliable agent execution.
+alwaysApply: true
+---
+# Context Before Action
+
+Before meaningful implementation work, inspect as appropriate:
+1. Repository structure and package manifests.
+2. Relevant source files and nearby tests.
+3. Project instructions such as AGENTS.md, README.md, CONTRIBUTING.md, docs, and CI config.
+4. Existing scripts for build, lint, typecheck, test, format, migration, and release.
+5. Git status and current diff when modifying an existing worktree.
+
+Do not read the whole repository by default. Follow the dependency and import graph from the requested behavior, then expand only as needed.
+
+When context is incomplete, explicitly label conclusions as provisional.

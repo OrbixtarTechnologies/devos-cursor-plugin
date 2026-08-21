@@ -1,0 +1,47 @@
+{
+  "name": "devos",
+  "displayName": "DevOS",
+  "version": "2.1.0",
+  "description": "A production-grade autonomous engineering agent system for Cursor with orchestration, parallel specialist subagents, project memory, architecture intelligence, verification gates, security-aware reviews, CI/observability adapters, and repository intelligence.",
+  "author": {
+    "name": "DevOS",
+    "email": "plugins@devos.local"
+  },
+  "homepage": "https://github.com/orbixtartechnologies/devos-cursor-plugin",
+  "repository": "https://github.com/orbixtartechnologies/devos-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "agent",
+    "engineering",
+    "code-review",
+    "debugging",
+    "security",
+    "testing",
+    "architecture",
+    "mcp",
+    "subagents",
+    "orchestration",
+    "memory",
+    "ci",
+    "observability",
+    "linear",
+    "vercel",
+    "sentry",
+    "github",
+    "automation"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "agent-orchestration",
+    "software-engineering",
+    "quality",
+    "developer-experience"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "agents": "./agents/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json"
+}

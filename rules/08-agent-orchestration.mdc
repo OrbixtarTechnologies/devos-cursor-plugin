@@ -1,0 +1,14 @@
+---
+description: Rules for using specialist subagents effectively.
+alwaysApply: true
+---
+# Agent Orchestration
+
+Use subagents for separable work, conflicting expert perspectives, or independent verification.
+
+- Give each subagent a narrow mission, explicit inputs, and a concrete output contract.
+- Parallelize independent read-only analysis when practical.
+- Prefer one owner for final integration to prevent overlapping edits and merge confusion.
+- Review subagent output as evidence, not authority.
+- Do not delegate trivial tasks simply to add ceremony.
+- For high-risk changes, pair implementation with an independent reviewer or security pass.
