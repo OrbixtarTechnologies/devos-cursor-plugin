@@ -1,0 +1,11 @@
+{
+  "name": "attio",
+  "description": "Search and update CRM records, lists, notes, and tasks.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/attio",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
