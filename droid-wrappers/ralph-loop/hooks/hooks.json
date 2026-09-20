@@ -1,0 +1,12 @@
+{
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "${DROID_PLUGIN_ROOT}/hooks/stop-hook.sh"
+        }
+      ]
+    }
+  ]
+}

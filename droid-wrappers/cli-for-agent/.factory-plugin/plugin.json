@@ -1,0 +1,11 @@
+{
+  "name": "cli-for-agent",
+  "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/cli-for-agent",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
