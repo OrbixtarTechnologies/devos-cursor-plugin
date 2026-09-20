@@ -1,0 +1,8 @@
+{
+  "name": "cursor-droid",
+  "description": "Cursor plugins adapted for Factory Droid CLI. Run scripts/sync_cursor_droid_marketplace.py to populate/update the catalog.",
+  "owner": {
+    "name": "Orbixtar Technologies"
+  },
+  "plugins": []
+}
