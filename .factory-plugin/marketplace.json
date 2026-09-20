@@ -1,0 +1,889 @@
+{
+  "name": "cursor-droid",
+  "description": "Factory Droid-compatible mirror of Cursor's official plugin marketplace. Generated plugin payloads are populated by the sync workflow.",
+  "owner": {
+    "name": "Orbixtar Technologies"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "description": "Skill mapping, practice plans, and learning retrospectives.",
+      "source": "./droid-marketplace/plugins/teaching",
+      "homepage": "https://github.com/cursor/plugins/tree/main/teaching",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "continual-learning",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only.",
+      "source": "./droid-marketplace/plugins/continual-learning",
+      "homepage": "https://github.com/cursor/plugins/tree/main/continual-learning",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "cursor-team-kit",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification.",
+      "source": "./droid-marketplace/plugins/cursor-team-kit",
+      "homepage": "https://github.com/cursor/plugins/tree/main/cursor-team-kit",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "thermos",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows.",
+      "source": "./droid-marketplace/plugins/thermos",
+      "homepage": "https://github.com/cursor/plugins/tree/main/thermos",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "create-plugin",
+      "description": "Scaffold and validate new agent plugins.",
+      "source": "./droid-marketplace/plugins/create-plugin",
+      "homepage": "https://github.com/cursor/plugins/tree/main/create-plugin",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique.",
+      "source": "./droid-marketplace/plugins/ralph-loop",
+      "homepage": "https://github.com/cursor/plugins/tree/main/ralph-loop",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "agent-compatibility",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+      "source": "./droid-marketplace/plugins/agent-compatibility",
+      "homepage": "https://github.com/cursor/plugins/tree/main/agent-compatibility",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+      "source": "./droid-marketplace/plugins/cli-for-agent",
+      "homepage": "https://github.com/cursor/plugins/tree/main/cli-for-agent",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "pr-review-canvas",
+      "description": "Render PR diffs as review canvases grouped by importance.",
+      "source": "./droid-marketplace/plugins/pr-review-canvas",
+      "homepage": "https://github.com/cursor/plugins/tree/main/pr-review-canvas",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "docs-canvas",
+      "description": "Render documentation as a navigable canvas.",
+      "source": "./droid-marketplace/plugins/docs-canvas",
+      "homepage": "https://github.com/cursor/plugins/tree/main/docs-canvas",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "cursor-sdk",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK.",
+      "source": "./droid-marketplace/plugins/cursor-sdk",
+      "homepage": "https://github.com/cursor/plugins/tree/main/cursor-sdk",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "orchestrate",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs.",
+      "source": "./droid-marketplace/plugins/orchestrate",
+      "homepage": "https://github.com/cursor/plugins/tree/main/orchestrate",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "source": "./droid-marketplace/plugins/pstack",
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "grok-voice",
+      "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions.",
+      "source": "./droid-marketplace/plugins/grok-voice",
+      "homepage": "https://github.com/cursor/plugins/tree/main/grok-voice",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "advisor",
+      "description": "Consult a stronger model before major decisions, when stuck, and before declaring done.",
+      "source": "./droid-marketplace/plugins/advisor",
+      "homepage": "https://github.com/cursor/plugins/tree/main/advisor",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "gmail",
+      "description": "Search, read, draft, and manage email.",
+      "source": "./droid-marketplace/plugins/gmail",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/gmail",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "google-drive",
+      "description": "Search, read, create, and share files.",
+      "source": "./droid-marketplace/plugins/google-drive",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-drive",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "google-calendar",
+      "description": "Search events and schedule meetings.",
+      "source": "./droid-marketplace/plugins/google-calendar",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-calendar",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "gong",
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "source": "./droid-marketplace/plugins/gong",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/gong",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "salesforce",
+      "description": "Query, create, and update records in your org.",
+      "source": "./droid-marketplace/plugins/salesforce",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/salesforce",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "playwright",
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "source": "./droid-marketplace/plugins/playwright",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/playwright",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "source": "./droid-marketplace/plugins/github",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/github",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "ashby",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "source": "./droid-marketplace/plugins/ashby",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/ashby",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "hubspot",
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "source": "./droid-marketplace/plugins/hubspot",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/hubspot",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "intercom",
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "source": "./droid-marketplace/plugins/intercom",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/intercom",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "zoom",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "source": "./droid-marketplace/plugins/zoom",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/zoom",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "x",
+      "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
+      "source": "./droid-marketplace/plugins/x",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/x",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "clay",
+      "description": "Enrich people and companies, run AI research agents.",
+      "source": "./droid-marketplace/plugins/clay",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/clay",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "circleback",
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "source": "./droid-marketplace/plugins/circleback",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/circleback",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "docusign",
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "source": "./droid-marketplace/plugins/docusign",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/docusign",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "navan",
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "source": "./droid-marketplace/plugins/navan",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/navan",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "profound",
+      "description": "Track AI visibility, sentiment, and citations.",
+      "source": "./droid-marketplace/plugins/profound",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/profound",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "juicebox",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "source": "./droid-marketplace/plugins/juicebox",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/juicebox",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "outreach",
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "source": "./droid-marketplace/plugins/outreach",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/outreach",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "amplemarket",
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "source": "./droid-marketplace/plugins/amplemarket",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/amplemarket",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "klaviyo",
+      "description": "Manage profiles, segments, campaigns, and flows.",
+      "source": "./droid-marketplace/plugins/klaviyo",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/klaviyo",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "customer-io",
+      "description": "Build campaigns, manage segments, and query people.",
+      "source": "./droid-marketplace/plugins/customer-io",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/customer-io",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "mailerlite",
+      "description": "Manage subscribers, groups, campaigns, and automations.",
+      "source": "./droid-marketplace/plugins/mailerlite",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/mailerlite",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "brevo",
+      "description": "Manage contacts, email and SMS campaigns, and CRM deals.",
+      "source": "./droid-marketplace/plugins/brevo",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/brevo",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "typeform",
+      "description": "Build forms, analyze responses, and manage contacts.",
+      "source": "./droid-marketplace/plugins/typeform",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/typeform",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "jotform",
+      "description": "Create and edit forms, then read submissions.",
+      "source": "./droid-marketplace/plugins/jotform",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/jotform",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "semrush",
+      "description": "Research keywords, backlinks, traffic, and competitors.",
+      "source": "./droid-marketplace/plugins/semrush",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/semrush",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "ahrefs",
+      "description": "Research keywords, backlinks, rankings, and site health.",
+      "source": "./droid-marketplace/plugins/ahrefs",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/ahrefs",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "godaddy",
+      "description": "Brainstorm domain names and check availability.",
+      "source": "./droid-marketplace/plugins/godaddy",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/godaddy",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "upwork",
+      "description": "Search talent, post jobs, and manage contracts.",
+      "source": "./droid-marketplace/plugins/upwork",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/upwork",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "workable",
+      "description": "Search candidates, move pipelines, and manage HR records.",
+      "source": "./droid-marketplace/plugins/workable",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/workable",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "brex",
+      "description": "Query expenses, receipts, bills, cards, and travel.",
+      "source": "./droid-marketplace/plugins/brex",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/brex",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "mercury",
+      "description": "Read balances, transactions, statements, and cards.",
+      "source": "./droid-marketplace/plugins/mercury",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/mercury",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "todoist",
+      "description": "Create, find, and complete tasks and projects.",
+      "source": "./droid-marketplace/plugins/todoist",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/todoist",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "calendly",
+      "description": "Check availability and book, cancel, or reschedule.",
+      "source": "./droid-marketplace/plugins/calendly",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/calendly",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "smartsheet",
+      "description": "Query and update sheets, rows, and workspaces.",
+      "source": "./droid-marketplace/plugins/smartsheet",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/smartsheet",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "wrike",
+      "description": "Search projects, create tasks, and post comments.",
+      "source": "./droid-marketplace/plugins/wrike",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/wrike",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "coda",
+      "description": "Search docs, read pages, and update tables.",
+      "source": "./droid-marketplace/plugins/coda",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/coda",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "guru",
+      "description": "Search company knowledge and draft verified answers.",
+      "source": "./droid-marketplace/plugins/guru",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/guru",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "fireflies",
+      "description": "Search meeting transcripts, summaries, and action items.",
+      "source": "./droid-marketplace/plugins/fireflies",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/fireflies",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "otter",
+      "description": "Search meeting history and pull full transcripts.",
+      "source": "./droid-marketplace/plugins/otter",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/otter",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "fathom",
+      "description": "Search meetings and pull transcripts and summaries.",
+      "source": "./droid-marketplace/plugins/fathom",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/fathom",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "craft",
+      "description": "Search, create, and update documents and daily notes.",
+      "source": "./droid-marketplace/plugins/craft",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/craft",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "mem",
+      "description": "Capture, search, and organize notes and collections.",
+      "source": "./droid-marketplace/plugins/mem",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/mem",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "readwise",
+      "description": "Search highlights and Reader documents, save articles.",
+      "source": "./droid-marketplace/plugins/readwise",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/readwise",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "similarweb",
+      "description": "Analyze website traffic, audiences, and competitors.",
+      "source": "./droid-marketplace/plugins/similarweb",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/similarweb",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "xero",
+      "description": "Read and write invoices, contacts, reports, and payroll.",
+      "source": "./droid-marketplace/plugins/xero",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/xero",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "outlook",
+      "description": "Search, read, and send Microsoft Outlook email, and look up contacts.",
+      "source": "./droid-marketplace/plugins/outlook",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/outlook",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "outlook-calendar",
+      "description": "List, create, update, and cancel Microsoft Outlook calendar events.",
+      "source": "./droid-marketplace/plugins/outlook-calendar",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/outlook-calendar",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "onedrive",
+      "description": "Browse, search, and read Microsoft OneDrive files.",
+      "source": "./droid-marketplace/plugins/onedrive",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/onedrive",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "sharepoint",
+      "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists.",
+      "source": "./droid-marketplace/plugins/sharepoint",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/sharepoint",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "teams",
+      "description": "Search, read, and send Microsoft Teams chats and channel messages.",
+      "source": "./droid-marketplace/plugins/teams",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/teams",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "finance",
+      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "source": "./droid-marketplace/plugins/finance",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/finance",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "x-ads",
+      "description": "Manage ad campaigns, create ads, track conversions, and pull performance stats.",
+      "source": "./droid-marketplace/plugins/x-ads",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/x-ads",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "attio",
+      "description": "Search and update CRM records, lists, notes, and tasks.",
+      "source": "./droid-marketplace/plugins/attio",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/attio",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "hunter",
+      "description": "Find and verify emails, discover companies, and save leads.",
+      "source": "./droid-marketplace/plugins/hunter",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/hunter",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "gamma",
+      "description": "Generate presentations, documents, and webpages.",
+      "source": "./droid-marketplace/plugins/gamma",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/gamma",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "webull",
+      "description": "View accounts, positions, orders, watchlists, and market data.",
+      "source": "./droid-marketplace/plugins/webull",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/webull",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "sp-global",
+      "description": "Query S&P Capital IQ financials, prices, and transcripts.",
+      "source": "./droid-marketplace/plugins/sp-global",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/sp-global",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "interactive-brokers",
+      "description": "Review positions, balances, P&L, and draft trade instructions.",
+      "source": "./droid-marketplace/plugins/interactive-brokers",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/interactive-brokers",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "meltwater",
+      "description": "Search media and social mentions and pull analytics.",
+      "source": "./droid-marketplace/plugins/meltwater",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/meltwater",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "daloopa",
+      "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+      "source": "./droid-marketplace/plugins/daloopa",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/daloopa",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "excalidraw",
+      "description": "Draw and export hand-drawn diagrams from chat.",
+      "source": "./droid-marketplace/plugins/excalidraw",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/excalidraw",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "description": "Explore datasets and tables and run SQL queries.",
+      "source": "./droid-marketplace/plugins/google-cloud-bigquery",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-cloud-bigquery",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    },
+    {
+      "name": "statsig",
+      "description": "Inspect and manage feature gates, experiments, dynamic configs, and metrics.",
+      "source": "./droid-marketplace/plugins/statsig",
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/statsig",
+      "tags": [
+        "cursor",
+        "droid",
+        "compatibility-mirror"
+      ]
+    }
+  ]
+}
