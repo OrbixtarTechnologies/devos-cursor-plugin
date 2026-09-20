@@ -1,0 +1,35 @@
+name: Sync Cursor Droid Marketplace
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    paths:
+      - ".github/workflows/sync-cursor-droid-marketplace.yml"
+      - "scripts/sync_cursor_droid_marketplace.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out bridge repository
+        uses: actions/checkout@v4
+
+      - name: Generate Droid marketplace
+        run: python3 scripts/sync_cursor_droid_marketplace.py
+
+      - name: Commit generated marketplace
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add droid-marketplace
+          if git diff --cached --quiet; then
+            echo "Marketplace already up to date."
+            exit 0
+          fi
+          git commit -m "chore: sync Cursor Droid marketplace"
+          git push
