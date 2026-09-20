@@ -1,0 +1,11 @@
+{
+  "name": "salesforce",
+  "description": "Query, create, and update records in your org.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/salesforce",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
