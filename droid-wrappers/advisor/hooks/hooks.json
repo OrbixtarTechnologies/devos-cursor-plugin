@@ -1,0 +1,33 @@
+{
+  "PostToolUse": [
+    {
+      "matcher": "Create|Edit|ApplyPatch",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${DROID_PLUGIN_ROOT}/hooks/mark-pending.sh\""
+        }
+      ]
+    }
+  ],
+  "SubagentStop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${DROID_PLUGIN_ROOT}/hooks/record-consult.sh\""
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${DROID_PLUGIN_ROOT}/hooks/stop-hook.sh\""
+        }
+      ]
+    }
+  ]
+}

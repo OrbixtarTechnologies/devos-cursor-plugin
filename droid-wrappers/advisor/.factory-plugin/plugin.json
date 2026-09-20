@@ -1,0 +1,11 @@
+{
+  "name": "advisor",
+  "description": "Consult a stronger model before major decisions, when stuck, and before declaring done.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/advisor",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
