@@ -1,0 +1,11 @@
+{
+  "name": "juicebox",
+  "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/juicebox",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
