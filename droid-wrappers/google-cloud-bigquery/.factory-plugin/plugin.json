@@ -1,0 +1,11 @@
+{
+  "name": "google-cloud-bigquery",
+  "description": "Explore datasets and tables and run SQL queries.",
+  "version": "0.0.0-cursor-bridge",
+  "author": {
+    "name": "Cursor plugin authors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-cloud-bigquery",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT"
+}
