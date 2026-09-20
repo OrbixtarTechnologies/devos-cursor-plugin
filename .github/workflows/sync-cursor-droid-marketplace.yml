@@ -1,0 +1,56 @@
+name: Sync Cursor plugins to Factory Droid
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * *"
+  push:
+    branches:
+      - main
+      - feat/cursor-droid-marketplace
+    paths:
+      - ".github/workflows/sync-cursor-droid-marketplace.yml"
+      - "scripts/sync_cursor_droid_marketplace.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cursor-droid-marketplace-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout bridge repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Factory Droid marketplace
+        run: python scripts/sync_cursor_droid_marketplace.py
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool .factory-plugin/marketplace.json >/dev/null
+          python -m json.tool droid-marketplace/compatibility.json >/dev/null
+          git diff --check
+
+      - name: Commit synchronized marketplace
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "Cursor marketplace is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .factory-plugin/marketplace.json droid-marketplace
+          git commit -m "chore: sync Cursor marketplace for Factory Droid"
+          git push
